@@ -13,14 +13,14 @@ Section=Sec_10
 
 [Sec_1]
 Name[en]="Generate Drill Data"
-Prompt[en]=""
+Prompt=""
 Device="EXCELLON"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.drd"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -31,14 +31,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_2]
 Name[en]="Milling"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.mil"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -49,14 +49,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_3]
 Name[en]="Component Side"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.cmp"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -67,14 +67,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_4]
 Name[en]="Solder side"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.sol"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -85,14 +85,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_5]
 Name[en]="Silk screen CMP"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.plc"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -103,14 +103,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_6]
 Name[en]="Silk screen SOL"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.pls"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -121,14 +121,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_7]
 Name[en]="Solder stop mask CMP"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.stc"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -139,14 +139,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_8]
 Name[en]="Solder stop mask SOL"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.sts"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -157,14 +157,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_9]
 Name[en]="Solder Paste Top"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.spt"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
@@ -175,14 +175,14 @@ Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1
 
 [Sec_10]
 Name[en]="Solder Paste Bottom"
-Prompt[en]=""
+Prompt=""
 Device="GERBER_RS274X"
 Wheel=".whl"
 Rack=""
 Scale=1
 Output="%N.spb"
 Flags="0 0 0 1 0 1 1"
-Emulate="0 0 0"
+Emulate="0"
 Offset="0.0mil 0.0mil"
 Sheet=1
 Tolerance="0 0 0 0 0 0"
